@@ -24,7 +24,7 @@ app.get('/register', (req, res) => {
 });
 
 app.get('/board', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views', 'dashboard.html'));
+    res.sendFile(path.join(__dirname, 'views', 'dash.html'));
 });
 
 app.listen(5000, 
