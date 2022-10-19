@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/public/css/dashboard.css" />
+    <!-- Font Awesome Cdn Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="#">EasyPay</a>
+        <div class="search_box">
+          <input type="text" placeholder="Search EasyPay" />
+          <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+      <div class="header-icons">
+        <i class="fas fa-bell"></i>
+        <div class="account">
+          <img src="/pics/20210422_000723.jpg" alt="" />
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <nav>
+        <div class="side_navbar">
+          <a href="#">Main Menu</a>
+          <a href="#" class="active">Dashboard</a>
+          <a href="#">Account</a>
+          <a href="#">Payment</a>
+          <a href="#">Settings</a>
+          <a href="#">Contact us</a>
+
+          <div class="links">
+            <a href="#"
+              ><i class="fa fa-sign-out" aria-hidden="true"></i> Log out</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <div class="main-body">
+        <h2>Dashboard</h2>
+        <div class="promo_card">
+          <h1>Welcome to EasyPay</h1>
+          <span>Good Evening 🌛.</span>
+          <button>Learn More</button>
+        </div>
+
+        <div class="history_lists">
+          <div class="list1">
+            <div class="row">
+              <h4>History</h4>
+              <a href="#">See all</a>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Dates</th>
+                  <th>Payment Location</th>
+                  <th>Type</th>
+                  <th>Ammount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>2nd, July, 2022</td>
+                  <td>MFM HQ</td>
+                  <td>Tithe</td>
+                  <td>₦12000.00</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>2nd, July, 2022</td>
+                  <td>MFM HQ</td>
+                  <td>Offering</td>
+                  <td>₦5,000.00</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>13th, July, 2022</td>
+                  <td>MFM HQ</td>
+                  <td>Offering</td>
+                  <td>₦2000.00</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>20nd, July, 2022</td>
+                  <td>Region 19, Ogun</td>
+                  <td>Offering</td>
+                  <td>₦2500.00</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>27th, July, 2022</td>
+                  <td>Region 23 Lagos</td>
+                  <td>Offering</td>
+                  <td>₦1720.00</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>2nd, August, 2022</td>
+                  <td>MFM HQ</td>
+                  <td>Tithe</td>
+                  <td>₦15000.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="list2">
+            <div class="row">
+              <h4>Documnets</h4>
+              <a href="#">Upload</a>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Title</th>
+                  <th>Type</th>
+                  <th>Uplaoded</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>CNIC</td>
+                  <td>PDF</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Passport</td>
+                  <td>PDF</td>
+                  <td>12</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Licence</td>
+                  <td>PDF</td>
+                  <td>9</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Pic</td>
+                  <td>Jpg</td>
+                  <td>22</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>CNIC</td>
+                  <td>Jpg</td>
+                  <td>22</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>Docx</td>
+                  <td>Word</td>
+                  <td>22</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <h4>Recent QR</h4>
+
+        <div class="balance">
+          <i class="fas fa-dollar icon"></i>
+          <div class="info">
+            <h5>MFM HQ</h5>
+            <!-- <span><i class="fas fa-dollar"></i>25,000.00</span> -->
+          </div>
+        </div>
+
+        <div class="balance">
+          <i class="fa-solid fa-rupee-sign icon"></i>
+          <div class="info">
+            <h5>Region 19</h5>
+            <!-- <span><i class="fa-solid fa-rupee-sign"></i>300,000.00</span> -->
+          </div>
+        </div>
+
+        <div class="balance">
+          <i class="fas fa-euro icon"></i>
+          <div class="info">
+            <h5>Region 12</h5>
+            <!-- <span><i class="fas fa-euro"></i>25,000.00</span> -->
+          </div>
+        </div>
+
+        <div class="balance">
+          <i class="fa-solid fa-indian-rupee-sign icon"></i>
+          <div class="info">
+            <h5>Region 1</h5>
+            <!-- <span><i class="fa-solid fa-indian-rupee-sign"></i>220,000.00</span> -->
+          </div>
+        </div>
+
+        <div class="balance">
+          <i class="fa-solid fa-sterling-sign icon"></i>
+          <div class="info">
+            <h5>Zone 6 Abuja</h5>
+            <!-- <span><i class="fa-solid fa-sterling-sign"></i>30,000.00</span> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
