@@ -3,6 +3,7 @@ const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
 
+const port = 5000
 
 const app = express();
 
@@ -15,7 +16,7 @@ app.get('/', (req, res) => {
 });
 
 
-app.get('/login', (req, res, next) => {
+app.get('/login', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'index.html'));
 });
 
@@ -27,6 +28,6 @@ app.get('/board', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'dash.html'));
 });
 
-app.listen(5000, 
-console.log(`server is listening`)
+app.listen(port, 
+console.log(`server is listening on ${port}`)
 ); 
