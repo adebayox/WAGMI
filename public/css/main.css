@@ -41,3 +41,13 @@ body {
   border-color: #5369f8;
   color: #fff;
 }
+.black {
+  color: black;
+}
+.i {
+  margin-left: -30px;
+  cursor: pointer;
+}
+.blue {
+  color: #5369f8;
+}
