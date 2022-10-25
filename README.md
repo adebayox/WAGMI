@@ -1,5 +1,5 @@
 # WAGMI
 
-## setup
-- $`npm install`
-- $`npm start`
+## Setup
+- `npm install`
+- `npm start`
